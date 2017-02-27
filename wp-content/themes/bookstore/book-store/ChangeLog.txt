@@ -1,0 +1,16 @@
+<strong>= v2.5.0 = 28-JUN-2016</strong>
+
+<pre>
+	Update
+		1. Made Compatible with WordPress 4.5+
+		
+	Fix
+		1. Logo / Favicon Upload Issue fix
+		2. Typography issues fix 
+		3. Styling and Color Scheme issue fix.
+		4. Minor CSS issues Fix.
+		5. Slider Issue Fix.
+		6. Image uploader issue fix.
+		
+		 
+</pre>
