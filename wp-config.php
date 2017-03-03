@@ -23,7 +23,7 @@
 define('DB_NAME', 'dbbibliotec');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'jeffreya12');
 
 /** MySQL database password */
 define('DB_PASSWORD', '');

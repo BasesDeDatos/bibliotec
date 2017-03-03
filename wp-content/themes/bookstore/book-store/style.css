@@ -247,8 +247,8 @@ img {
 
 
 .top-nav-bar {
-	background: #242424;
-	color: #fff;
+	background: #fff;
+	color: #000;
 	min-height: 50px;
 }
 .top-nav-bar ul {
@@ -267,7 +267,7 @@ img {
 .top-nav li a {
 	padding: 0 12px;
 	display: block;
-	color: #fff;
+	color: #000;
 }
 .top-nav li a:hover, .top-nav li a.active {
 	color: #fff;
@@ -412,7 +412,7 @@ img {
 	width: 67%;
 }
 .s-product-det h3 {
-	color: #809f14;
+	color: #014278;
 	font-size: 18px;
 	margin: 0 0 8px;
 	line-height: 18px;
@@ -642,7 +642,7 @@ img {
 }
 .slide2-caption {
 	padding: 10px 14px;
-	background: #809f14;
+	background: #014278;
 	overflow: hidden;
 	font-family: Arial, Helvetica, sans-serif;
 	margin-top: 14px;
@@ -704,8 +704,8 @@ img {
 .Featured-Author {
 	margin-top: 73px;
 	background: #f8f8f8;
-	border-top: 7px solid #809f14;
-	border-bottom: 2px solid #809f14;
+	border-top: 7px solid #014278;
+	border-bottom: 2px solid #014278;
 	position: relative;
 }
 .Featured-Author:after {
@@ -717,7 +717,7 @@ img {
 	height: 0;
 }
 .author-img-holder {
-	border: 8px solid #809f14;
+	border: 8px solid #014278;
 	left: 40px;
 	position: absolute;
 	top: -80px;
@@ -908,7 +908,7 @@ img {
 	width: 38px;
 	height: 48px;
 	text-align: center;
-	background: #809f14;
+	background: #014278;
 	color: #fff;
 }
 .post-date span {
@@ -1050,7 +1050,7 @@ footer input[type="text"] {
 	font-size: 18px;
 	font-family: Calibri;
 	font-weight: bold;
-	background: #809f14;
+	background: #014278;
 	padding: 6px 15px;
 	float: right;
 	color: #fff;
@@ -1133,7 +1133,7 @@ footer input[type="text"] {
 	color: #8d8d8d;
 }
 .post-date2 {
-	background: #809F14;
+	background: #014278;
 	color: #fff;
 	height: 30px;
 	left: 0;
@@ -1315,7 +1315,7 @@ footer input[type="text"] {
 .vote-btn {
 	font-size: 14px;
 	font-weight: bold;
-	background: #809f14;
+	background: #014278;
 	padding: 6px 15px;
 	display: inline-block;
 	color: #fff;
@@ -4055,7 +4055,7 @@ div.pagination a:last-child, div.pagination span:last-child {
 }
 .pagination a:hover, .pagination span.current {
 	border: 1px solid #ddd;
-	background-color: #809F14;
+	background-color: #014278;
 	color: #fff;
 }
 div.pagination a, div.pagination span {
@@ -4378,7 +4378,7 @@ ul.tabs li a {
 ul.tabs li a.active {
 	background: #efefef;
 	height: 30px;
-	color: #809F14;
+	color: #014278;
 }
 ul.tabs li:first-child a.active {
 	margin-left: 0;

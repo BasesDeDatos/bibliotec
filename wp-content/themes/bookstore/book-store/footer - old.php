@@ -43,7 +43,51 @@
               <!-- End Footer Top 1 -->
             
               <!-- Start Footer Top 2 -->
+              <section class="container-fluid footer-top2">
+               <?php  if( $cp_social_footer == 'enable' ){ ?>
+               <script type="text/javascript">
+                							  /* <![CDATA[ */
+											  jQuery(document).ready(function() {
+											  jQuery('.social_active').hoverdir( {} );
+											})
+											/* ]]> */
+        		       				   </script> 
+                <section class="social-ico-bar">
+                  <section class="container">
+                    <section class="row-fluid">
+                    <?php $cp_show_social_icons = get_option(THEME_NAME_S.'show_social_icons','disable');  if( $cp_show_social_icons == 'enable' ){ echo  '<div id="socialicons" class="hidden-phone">'; social_media_footer(); echo '</div>'; } ?>
+                      <div class="footer2-link">
+                      <?php wp_nav_menu( array( 'theme_location' => 'footer_menu' ) );  ?>
+                      </div>
+                    </section>
+                  </section>
+                </section>
+              <?php } ?>
               
+                <section class="container">
+                  <section class="row-fluid footer">
+                  
+                     <?php
+									$cp_footer_class = array(
+									'footer-style1'=>array('1'=>'span3', '2'=>'span3', '3'=>'span3', '4'=>'span3'),
+									'footer-style4'=>array('1'=>'span4', '2'=>'span4', '3'=>'span4', '4'=>'display-none'),
+									);
+
+                                                $cp_footer_style = get_option(THEME_NAME_S.'_footer_style', 'footer-style1');
+                                                for( $i=1 ; $i<=4; $i++ ){
+                                                    echo '<figure class="' . $cp_footer_class[$cp_footer_style][$i] . ' ">';
+                                                    dynamic_sidebar('Footer '. $i);
+                                                    echo '</figure>';
+                                                ?>
+                                              
+                                        
+
+                                <?php } ?>
+                    
+                   
+                  </section>
+                </section>
+              </section>
            <?php } ?>
               <!-- End Footer Top 2 -->
               <!-- Start Main Footer -->
@@ -54,9 +98,10 @@
                       <article class="span6 copy-left">
                         <?php if ($footer_text != '' ){
                                 echo sprintf(__('%s','crunchpress'), $footer_text);
-                                }else {?>
-                                  <p>Copyright &copy; <?php echo date("Y") ?></p>;
-                                <?php } ?>
+                                }else {
+                                echo __('<p>Copyright &copy; 2012.','crunchpress'). __('Designed by  <a href="http://crunchpress.com/">CrunchPress.com</a></p>','crunchpress');
+                                }
+                                ?>
                       </article>
                       <article class="span6 copy-right">
                         <p></p>

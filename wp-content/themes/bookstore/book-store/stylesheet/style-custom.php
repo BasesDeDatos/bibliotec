@@ -56,9 +56,9 @@
 <?php  if ( is_user_logged_in() ) {echo 'html{margin-top:28px;}';} ?>
 
 
-<?php $heading_color = get_option(THEME_NAME_S.'_default_heading_color','#809F14');  ?>
-<?php $link_color = get_option(THEME_NAME_S.'_default_link_color','#809F14');  ?>
-<?php $overall_color = get_option(THEME_NAME_S.'_default_overall_color','#809F14');  ?>
+<?php $heading_color = get_option(THEME_NAME_S.'_default_heading_color','#014278');  ?>
+<?php $link_color = get_option(THEME_NAME_S.'_default_link_color','#014278');  ?>
+<?php $overall_color = get_option(THEME_NAME_S.'_default_overall_color','#014278');  ?>
 
 a, .e-commerce-list li a {
    color:<?php echo $overall_color;  ?>
