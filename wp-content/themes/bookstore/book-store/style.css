@@ -140,7 +140,7 @@ img {
 	color: #fff;
 	padding: 9px 20px;
 	float: left;
-	background: #98b827;
+	background: #044578;
 	cursor: pointer;
 	transition: width 1s;
 	-moz-transition: 1s; /* Firefox 4 */
@@ -214,7 +214,7 @@ img {
 	color: #000;
 	background-color: rgba(37, 36, 36);
 	background-color: rgba(37, 36, 36, 0.1);
-	border-bottom: 3px solid #98B827;
+	border-bottom: 3px solid #044578;
 }
 #main-header .dropdown-menu {
 	left: 0;
@@ -226,7 +226,7 @@ img {
 #main-header .navbar-inverse .nav li.dropdown.open > .dropdown-toggle, #main-header .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, #main-header .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
 	background: rgba(37, 36, 36);
 	background: rgba(37, 36, 36, 0.1);
-	border-bottom: 3px solid #98B827;
+	border-bottom: 3px solid #044578;
 }
 #main-header .dropdown-menu > li:first-child {
 	background: none;
@@ -297,7 +297,7 @@ img {
 	color: #fff;
 }
 .e-commerce-list li.p-category a:hover {
-	color: #98b827;
+	color: #044578;
 	text-decoration: none;
 }
 .c-btn {
@@ -530,7 +530,7 @@ img {
 	font-size: 18px;
 }
 .h-line {
-	background: #98b827;
+	background: #044578;
 	width: 30px;
 	height: 3px;
 	position: absolute;
@@ -1215,7 +1215,7 @@ footer input[type="text"] {
 	margin: 0 0 35px;
 }
 .side-holder .title {
-	color: #98b827;
+	color: #044578;
 	display: block;
 	margin: 0 0 5px;
 }
@@ -1236,7 +1236,7 @@ footer input[type="text"] {
 	margin: 10px 0;
 }
 .side-holder h2 {
-	background: #98b827;
+	background: #044578;
 	font-size: 20px;
 	color: #fefefe;
 	line-height: 20px;
@@ -1293,7 +1293,7 @@ footer input[type="text"] {
 }
 .r-type {
 	font-size: 12px;
-	color: #98b827;
+	color: #044578;
 	display: block;
 	margin: 0 0 5px;
 }
@@ -1608,7 +1608,7 @@ footer input[type="text"] {
 	margin: 0;
 }
 .title-holder h4 i {
-	color: #98b827;
+	color: #044578;
 }
 .title-holder [class*="span"] {
 	margin: 0 !important;
@@ -1633,7 +1633,7 @@ footer input[type="text"] {
 	margin-bottom: 50px;
 }
 .book-i-caption .title {
-	color: #98b827;
+	color: #044578;
 	margin: 0 0 15px;
 	display: block;
 	font-size: 18px;
@@ -1751,7 +1751,7 @@ footer input[type="text"] {
 
 
 .reviews-section {
-	border-top: 2px solid #98b827;
+	border-top: 2px solid #044578;
 	overflow: hidden;
 }
 .left-sec {
@@ -1789,7 +1789,7 @@ footer input[type="text"] {
 .review-list em {
 	display: block;
 	margin: 0 0 10px;
-	color: #98b827;
+	color: #044578;
 	font-style: normal;
 }
 .review-list li {
@@ -1860,7 +1860,7 @@ footer input[type="text"] {
 .green-t {
 	display: block;
 	margin: 0 0 10px;
-	color: #98b827;
+	color: #044578;
 }
 .form-horizontal .controls {
 	margin: 0;
@@ -2177,7 +2177,7 @@ footer input[type="text"] {
 	color: #000;
 }
 .cart-option-box i {
-	color: #98b827;
+	color: #044578;
 	font-size: 28px;
 }
 .cart-option-box h4 {
@@ -2301,7 +2301,7 @@ footer input[type="text"] {
 	margin: 0 0 10px;
 }
 .book-detail .title {
-	color: #98b827;
+	color: #044578;
 	font-size: 20px;
 	display: block;
 	margin: 0 0 10px;
@@ -2424,7 +2424,7 @@ h3.sub-heading-404 {
 	color: #fff;
 }
 .dropcap.color {
-	background: #98b827;
+	background: #044578;
 	color: #fff;
 }
 /*----------- End Drop Capes -----------*/

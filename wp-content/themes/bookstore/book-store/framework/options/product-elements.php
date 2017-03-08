@@ -150,9 +150,6 @@
 			 echo substr(wp_strip_all_tags( get_the_excerpt() ), 0,100);
 			 echo '</p>';
 			 echo '<div class="clearfix"></div>';
-			 echo '<div class="cart-btn2">';
-			 do_action( 'woocommerce_after_shop_loop_item' );
-			 echo '</div>';
 			 echo '<div class="cart-price"> <span class="price">' . do_action( 'woocommerce_after_shop_loop_item_title' ).'</span> </div>';
 			 woocommerce_show_product_loop_sale_flash();
 			 echo '</article>';

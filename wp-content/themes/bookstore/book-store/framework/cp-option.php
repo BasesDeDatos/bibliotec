@@ -339,9 +339,9 @@
 		),
 
 		'cp_panel_background' => array(
-			/*	__('Heading Color', 'crunchpress')=>array('body_class'=>'cp_background_solid', 'type'=>'colorpicker','name'=>THEME_NAME_S.'_default_heading_color','color_scheme_1'=>'#809F14','description'=>'It will change color of headings'),
-				__('Link Color', 'crunchpress')=>array('body_class'=>'cp_background_solid', 'type'=>'colorpicker','name'=>THEME_NAME_S.'_default_link_color','color_scheme_1'=>'#809F14','description'=>'It will change color of hyperlinks'),*/
-				__('Color Scheme', 'crunchpress')=>array('body_class'=>'cp_background_solid', 'type'=>'colorpicker','name'=>THEME_NAME_S.'_default_overall_color','color_scheme_1'=>'#809F14','description'=>'It will change overall color scheme'),	 
+			/*	__('Heading Color', 'crunchpress')=>array('body_class'=>'cp_background_solid', 'type'=>'colorpicker','name'=>THEME_NAME_S.'_default_heading_color','color_scheme_1'=>'#044578','description'=>'It will change color of headings'),
+				__('Link Color', 'crunchpress')=>array('body_class'=>'cp_background_solid', 'type'=>'colorpicker','name'=>THEME_NAME_S.'_default_link_color','color_scheme_1'=>'#044578','description'=>'It will change color of hyperlinks'),*/
+				__('Color Scheme', 'crunchpress')=>array('body_class'=>'cp_background_solid', 'type'=>'colorpicker','name'=>THEME_NAME_S.'_default_overall_color','color_scheme_1'=>'#044578','description'=>'It will change overall color scheme'),	 
 				__('Background Color', 'crunchpress')=>array('body_class'=>'cp_background_solid', 'type'=>'colorpicker','name'=>THEME_NAME_S.'_default_background_color','color_scheme_1'=>'#ffffff','description'=>'It will change solid background color'),
 	
 			__('BACKGROUND TYPE', 'crunchpress')=>array('type'=>'combobox', 'id'=>'cp_background_style','name'=>THEME_NAME_S.'_background_style','options'=>array('0'=>'None','1'=>'Pattern','2'=>'Custom Image'),

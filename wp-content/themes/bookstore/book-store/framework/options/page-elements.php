@@ -481,9 +481,7 @@
 		}echo '</div>';
 		echo '<div class="current-book"> <strong class="title"><a href="' . get_permalink() . '">' . $product_title. '</a></strong>';
 		echo '<p>'. substr(get_the_excerpt(), 0,100). '</p>';
-		echo '<div class="cart-btn2">';
-				   do_action( 'woocommerce_after_shop_loop_item' );
-				  echo '</div>';
+
 				  echo '<div class="cart-price"> <span class="price">' . do_action( 'woocommerce_after_shop_loop_item_title' ).'</span> </div>';
 		echo '	</div>';
 		echo '  </div>';

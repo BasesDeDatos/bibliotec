@@ -203,24 +203,6 @@
 
         </section>
 
-         
-
-        
-
-        
-
-        <section class="span6 e-commerce-list">
-
-        
-
-		<?php if(cp_woocommerce_enabled()) {  echo  cp_shop_nav_top(); ?>
-
-           <div class="c-btn">  <?php  global $woocommerce;  if(cp_woocommerce_enabled()) {  echo cp_woocommerce_cart_dropdown();}?></div>
-
-        <?php } ?>
-
-        </section>
-
       </section>
 
     </section>
@@ -272,9 +254,6 @@
         <section class="span8">
 
         
-
-            <?php  if(cp_woocommerce_enabled()) { echo cp_shop_nav(); }  ?>
-
             
 
           <div class="clear"></div>

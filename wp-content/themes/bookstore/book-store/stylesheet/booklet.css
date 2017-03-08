@@ -13,7 +13,7 @@
 .book-outer { background: url(../example/images/pattren-bg.gif) repeat; max-width: 960px; height: 430px; margin: 0 auto; border: 1px solid #e5e5e5; position: relative; }
 .book-outer:before { content: ''; background: url(../example/images/before-bg.gif) repeat-y left top; position: absolute; left: -8px; top: -1px; width: 9px; min-height: 430px; border-top: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5; }
 .book-outer:after { content: ''; background: url(../example/images/after-bg.gif) repeat-y left top; position: absolute; right: -10px; top: -1px; width: 9px; min-height: 430px; border-top: 1px solid #e5e5e5; border-bottom: 1px solid #e5e5e5; }
-.booklet:before { content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 137px; background: #98b827; }
+.booklet:before { content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 137px; background: #044578; }
 .booklet { max-width: 960px; min-height: 430px; position: relative; float: left; overflow: visible !important; }
 .booklet .b-page { left: 0; top: 0; overflow: hidden; position: absolute; padding: 0; outline: 1px solid transparent; display:none; }
 .booklet .b-menu { z-index: 100; }
@@ -36,14 +36,14 @@
 .left-page { float: left; width: 100%; margin: 27px 0 0 0; position: relative; height: 420px; }
 .frame { max-width: 244px; margin: 0 auto; box-shadow: 0 2px 3px rgba(0,0,0,0.3); display: block; position: relative; z-index: 9; }
 .frame img { width: 100%; display: block; }
-.left-page .bottom { position: absolute; left: 0; bottom: 17px; width: 100%; background: #98b827; min-height: 137px; }
+.left-page .bottom { position: absolute; left: 0; bottom: 17px; width: 100%; background: #044578; min-height: 137px; }
 .cart-price { max-width: 244px; margin: 75px auto 0; overflow: hidden; }
 .cart-price span.cart { background: url(../example/images/cart-icon.png) no-repeat left top; line-height: 23px; width: 27px; height: 23px; float: left; margin: 0 9px 0 72px; }
 .cart-price strong.price { font-size: 24px; color: #000; float: left; line-height: 23px; border-left: 1px solid #5a5a5a; padding: 0 0 0 10px; }
 .right-page { float: right; width: 100%; margin: 88px 0 0 0; position: relative; height: 342px; }
 .right-page .text { float: left; width: 100%; margin: 0 0 0 25px; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */ -moz-box-sizing: border-box;    /* Firefox, other Gecko */ box-sizing: border-box;         /* Opera/IE 8+ */ }
 .right-page .text h1 { font-size: 30px; color: #232323; margin: 0 0 6px 0; }
-.right-page .text strong.name { font-size: 20px; line-height: 20px; color: #98b827; display: block; padding: 0 0 8px 0; }
+.right-page .text strong.name { font-size: 20px; line-height: 20px; color: #044578; display: block; padding: 0 0 8px 0; }
 .rating-box { float: left; width: 100%; margin: 0 0 32px 0; }
 .right-page .text a.btn-shop:hover { text-decoration: underline; }
 .right-page .bottom { position: absolute; right: 0; bottom: 0; width: 100%; background: url(../example/images/right-bottom-bg.gif) repeat-y left top; min-height: 137px; }

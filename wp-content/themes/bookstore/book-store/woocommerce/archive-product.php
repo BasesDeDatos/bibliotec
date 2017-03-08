@@ -144,9 +144,9 @@ get_header(); ?>
 												echo '<div class="clearfix"></div>';
 												echo '<div class="title-holder title"><a href="' . get_permalink() . '">' . $short_title. '</a></div>';
 												echo '<div class="product-meta">';
-												echo '<div class="cart-btn2">';
-												do_action( 'woocommerce_after_shop_loop_item' );
-												echo '<span class="price">'.do_action( 'woocommerce_after_shop_loop_item_title' ).'</span>';
+												echo '<div class="cart-btn2"><h3>';
+												echo get_the_title();
+												echo '</h3><span class="price">'.do_action( 'woocommerce_after_shop_loop_item_title' ).'</span>';
 												
 												echo '</div>';
 												echo '</div>';
@@ -190,9 +190,9 @@ get_header(); ?>
 												echo '<div class="clearfix"></div>';
 												echo '<div class="title-holder title"><a href="' . get_permalink() . '">' . $short_title. '</a></div>';
 												echo '<div class="product-meta">';
-												echo '<div class="cart-btn2">';
-												do_action( 'woocommerce_after_shop_loop_item' );
-												echo '<span class="price">'.do_action( 'woocommerce_after_shop_loop_item_title' ).'</span>';
+												echo '<div class="cart-btn2"><h3>';
+												echo get_the_title();
+												echo '</h3><span class="price">'.do_action( 'woocommerce_after_shop_loop_item_title' ).'</span>';
 												echo '</div>';
 												echo '</div>';
 												
